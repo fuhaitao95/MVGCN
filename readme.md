@@ -6,11 +6,11 @@ Developer: Fu Haitao from BBDM lab, College of Informatics, Huazhong Agricultura
 
 ## Tutorial
 
-1. Split data for cross validation and indenpendent test experiment via script *split_data.py*: `python split_data.py fold_number DATANAME seed_indent seed_cross`.
+1. Split data for cross validation and indenpendent test experiment via script *split_data.py*: `python split_data.py fold_number DATANAME seed_indent seed_cross`
 
 2. To perform cross validation for finetuning the hyperparameters by running script *command_optimal* (if you don't want to finetune the hyperparameters, just skip this step): 
 
-   `python comman_optimal.py --dataName DATANAME --exp_name mid_dim/num_layer/alp_beta --seed_cross seed_cross --seed_indent seed_indent`
+   `python command_optimal.py --dataName DATANAME --exp_name mid_dim/num_layer/alp_beta --seed_cross seed_cross --seed_indent seed_indent`
 
 3. To get the experiment results by running script *command_optimal.py*: 
 
