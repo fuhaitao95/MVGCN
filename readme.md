@@ -36,5 +36,5 @@ python 3.7.1
 
 ## Contact
 
-Please feel free to contact us if you need any help: [fuhaitao@webmail.hzau.edu.cn](mailto:fuhaitao@webmail.hzau.edu.cn) OR [1298332329@qq.com](mailto:1298332329@qq.com)
+Please feel free to contact us if you need any help: [fuhaitao@webmail.hzau.edu.cn](mailto:fuhaitao@webmail.hzau.edu.cn) OR [fuhaitao95@qq.com](mailto:fuhaitao95@qq.com)
 
