@@ -71,9 +71,9 @@ class MF(torch.nn.Module):
         # dropout for E_0
         self.hidden_dropout0 = torch.nn.Dropout(dropProb)
         # NIPlayer message passing
-        self.NIPLayer_ls = []
+        self.NIPLayer_ls = nn.ModuleList()
         for i_layer in range(num_layer):
-            self.NIPLayer_ls.append([])
+            self.NIPLayer_ls.append(nn.ModuleList())
             for j_num_sim in range(num_sim):
                 temp = NIP(mid_dim, mid_dim, self.initF, actType, dropProb)
                 self.NIPLayer_ls[i_layer].append(temp)
